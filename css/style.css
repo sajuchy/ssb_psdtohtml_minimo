@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'PlayFairDisplay-Regular';
+    src: url(../font/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'PlayFairDisplay-Black';
+    src: url(../font/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family: 'PlayFairDisplay-Italic';
+    src: url(../font/PlayfairDisplay-Italic.otf);
+}
+
+@font-face {
+    font-family:'Ubuntu';
+    src: url(../font/Ubuntu-L.ttf);
+}
+/* Common Start here */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PlayFairDisplay' serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+/* Common end here */
+
+
+/* Header Start here */
+
+header{
+    padding: 25px 0;
+    
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+.logo{
+    margin-top: 5px;
+    width: 12%;
+   
+    /* border: 1px solid red; */
+    float: left;
+
+}
+.logo a{
+
+}
+.logo a img{
+    width: 100%;
+}
+
+.menu{
+    width: 60%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+  
+}
+.menu ul li a{
+    font-family: 'PlayFairDisplay-Regular';
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 45px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    color:rgb(189, 49, 49);
+}
+
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/* Header end here */
+
+
+/* .banner start here */
+
+.banner{}
+.banner_content{
+
+}
+
+.banner_content img{
+    width: 100%;
+}
+/* .banner end here */
+
+
+/* perfect start */
+
+.perfect{
+    padding: 60px 0;
+}
+.container2{
+
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.perfect_content{
+   
+}
+.perfect_content h1{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 35px;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.perfect_content p{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 15px;
+    line-height: 1.6;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    
+}
+.perfect_content .text{
+    margin-bottom: 25px;
+}
+   
+
+.common{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    color: #b3a893;
+    text-transform: uppercase;
+    
+}
+/* perfect end */
+
+/* blog start here */
+.blog{
+ padding: 60px 0;
+}
+.photos{
+    /* box-sizing: border-box; */
+    width: 47%;
+    /* border: 1px solid; */
+    float: left;
+    padding-bottom: 80px 
+
+}
+
+
+.photos:nth-child(even){
+    
+    margin-left:64.2px;
+}
+.photos img{
+    /* border: 1px solid; */
+    
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.photos h1{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    margin: 15px 0;
+    
+}
+
+.photos p:last-child{
+    font-size: 14px;
+    line-height: 1.4;
+}
+/* blog end here */
+
+
+
+/* .newsletter start here */
+
+.newsletter{
+    padding: 50px 0;
+    background-color: #F0F0F0;
+}
+
+.container4{
+    width: 60%;
+    margin:0 auto;
+}
+
+.signup{
+    text-align: center;
+}
+
+.signup h1{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.n-form{
+    width: 350px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+.n-form input{
+    width: 300px;
+    font-family:'PlayFairDisplay-Regular' ;
+    font-size: 18px;
+    padding: 10px 50px 10px 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    
+}
+.n-form button{
+    border: none;
+    background: transparent;
+    /* border: 1px solid; */
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    
+}
+.n-form button a{
+    color:#848483;
+}
+
+.n-form button a:hover{
+    color: #626262;
+    /* background: #b3a893; */
+}
+
+/* .newsletter end here */
+
+
+
+/* blog2 start here */
+.blog2{
+    padding: 80px 0;
+}
+/* blog2 end here */
+
+
+.btn{
+
+
+
+}
+.container3{
+    text-align: center;
+}
+
+.container3 button{
+    padding: 18px 30px;
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 25px ;
+    border: none;
+    background: transparent;
+    transition: .5s;
+    border: 1px solid #b3a893;
+}
+
+.container3 button:hover{
+    color: #F0F0F0;
+    background-color: #626262;
+   
+}
+
+footer{
+    
+   
+    background-color: #F0F0F0;
+    
+}
+
+.container5{
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+}
+.footer-manu{
+    float: left;
+    overflow: hidden;
+    width:30%;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+
+.footer-manu ul{
+    list-style: none;
+
+    
+}
+
+
+.footer-manu ul li{
+    text-decoration: none;
+    float: left;
+}
+
+.footer-manu ul li a{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 16px;
+    text-decoration: none;
+    color: #202020;
+    margin: 0 10px;
+}
+
+.footer-manu ul li a:hover{
+    color:rgb(189, 49, 49);
+    
+}
+
+
+.icons{
+    width: 27%;
+    /* border: solid red; */
+    float: right;
+    margin-top: 30px;
+    
+
+}
+
+.icons ul{
+    list-style: none;
+    margin: 12px 86px;
+   
+   
+
+}
+
+.icons ul li{
+ text-decoration: none;
+ float: left;
+
+}
+
+
+.icons ul li a{
+    font-family: 'PlayFairDisplay-Regular';
+    margin: 0 10px;
+    font-size: 16px;
+    color: #626262;
+
+}
+.icons ul li a:hover{
+    color: rgb(189, 49, 49); ;
+    /* background-color:  #141414; */
+}
+
+.f{
+    font-family: 'PlayFairDisplay-Regular';
+    font-size: 15px;
+    color: #141414;
+    margin-top: 2px;
+}
+
+
+
